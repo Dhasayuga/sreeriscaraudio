@@ -1573,7 +1573,7 @@
   }
 
   .banner_constant_text {
-    top: 30%;
+    top: 130px;
     left: 11%;
     position: absolute;
   }
@@ -1644,11 +1644,11 @@
   .projects_rectanglebox {
     width: 80%;
     position: absolute;
-    height: 80%;
     border: 3px solid #C6FF00;
     display: flex;
     margin: 70px 0px;
     left: 7%;
+    height: 380px;
   }
 
   .wrapper {
@@ -1701,7 +1701,7 @@
   .about_us_rectanglebox {
     width: 97%;
     position: absolute;
-    height: 90%;
+    height: 360px;
     border: 3px solid #C6FF00;
     display: flex;
     margin: 174px 0px;
@@ -1711,7 +1711,7 @@
   .services_rectanglebox {
     width: 97%;
     position: absolute;
-    height: 110%;
+    height: 500px;
     border: 3px solid #C6FF00;
     display: flex;
     margin: 120px 0px;
@@ -1905,17 +1905,6 @@
     background-color: #171B1C;
   }
 
-  .slider_2 {
-    width: 380px;
-    text-align: center;
-    padding: 0px 35px;
-  }
-
-  .slider_2 {
-    width: 380px;
-    text-align: center;
-    padding: 0px 35px;
-  }
 
   .slideno1_para {
     color: #FFFFFF;
@@ -1930,7 +1919,7 @@
 
   .slider_2 .slick-next {
     position: absolute;
-    top: 420px;
+    top: 450px;
     right: 135px;
     background: url(images/testiarrowright.png) no-repeat;
     display: block;
@@ -1942,7 +1931,7 @@
 
   .slider_2 .slick-prev {
     position: absolute;
-    top: 420px;
+    top: 450px;
     left: 135px;
     background: url(images/testiarrowleft.png) no-repeat;
     display: block;
@@ -1956,7 +1945,7 @@
     width: 380px;
     text-align: center;
     padding: 0px 35px;
-    height: 470px;
+    height: 510px;
   }
 
   .about_us .about_us_align {
@@ -2063,7 +2052,7 @@
   .form-group2 {
     border: 0px solid rgba(0, 0, 0, 0);
     padding: 0px 0px 20px 0px;
-    width: 60%;
+    width: 80%;
   }
 
   .footer .footer_align .footer_right {
@@ -2084,4 +2073,46 @@
     display: inline-block;
     vertical-align: top;
   }
+
+  .about_us_mainheading {
+    font-family: Syncopate;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #777B7C;
+    margin: 60px 0px 0px 0px;
+    position: relative;
+    background: #EDEDED;
+    width: 300px;
+    padding: 0px;
+  }
+
+  .about_us_tagheading {
+    font-family: myFirstFont;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 43px;
+    text-transform: capitalize;
+    color: #171B1C;
+    margin: 0px 0px 30px 0px;
+    position: relative;
+    background: #EDEDED;
+    padding: 0px;
+  }
+  .banner_constant_text :before {
+    content: '';
+    position: absolute;
+    background: url(images/hashone.png) no-repeat;
+    height: 300px;
+    width: 300px;
+    background-size: contain !important;
+    background-position: center !important;
+    top: -100%;
+    left: -26%;
+    display: none;
+}
 }
